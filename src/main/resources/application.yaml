@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      database: store
+      host: storemongodb
+      port: 27017
+      authentication-database: admin
+server:
+  servlet:
+    context-path: /store/api
